@@ -23,3 +23,5 @@ pnpm run dev
 # build
 pnpm run build
 ```
+
+![demo](./.github/demo.png)
