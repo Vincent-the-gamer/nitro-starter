@@ -3,10 +3,18 @@
   "scripts": {
     "build": "nitro build",
     "dev": "nitro dev --port 8080",
+    "lint:fix": "eslint . --fix",
     "prepare": "nitro prepare",
-    "preview": "node .output/server/index.mjs"
+    "start": "NITRO_PORT=3001 node .output/server/index.mjs",
+    "dep": "taze major"
+  },
+  "dependencies": {
+    "tslog": "^4.9.3"
   },
   "devDependencies": {
-    "nitropack": "latest"
+    "@antfu/eslint-config": "^3.8.0",
+    "eslint": "^9.13.0",
+    "nitropack": "latest",
+    "taze": "^0.17.2"
   }
 }
