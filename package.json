@@ -9,14 +9,14 @@
     "dep": "taze major"
   },
   "dependencies": {
-    "dayjs": "^1.11.19",
+    "dayjs": "^1.11.20",
     "nitro-cors": "^0.7.1",
     "tslog": "^4.10.2"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^7.0.1",
-    "eslint": "^9.39.2",
+    "@antfu/eslint-config": "^8.2.0",
+    "eslint": "^10.2.0",
     "nitropack": "latest",
-    "taze": "^19.9.2"
+    "taze": "^19.11.0"
   }
 }
